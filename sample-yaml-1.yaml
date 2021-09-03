@@ -4,9 +4,9 @@ all:
     children:
         webserver:
             hosts:
-                wq1.qt.com
-                wq2.qt.com
+                wq1.qt.com:
+                wq2.qt.com:
         dbserver:
             hosts:
-                db1.qt.com
-                db2.qt.com
+                db1.qt.com:
+                db2.qt.com:

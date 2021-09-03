@@ -1,0 +1,7 @@
+192.168.10.57
+
+[webserver]
+wq[1:10].qt.com
+
+[dbserver]
+db[1:5].qt.com

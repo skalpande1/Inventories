@@ -1,0 +1,10 @@
+all:
+    hosts:
+        192.168.10.57:
+    children:
+        webserver:
+            hosts:
+                wq[1:7].qt.com:
+        dbserver:
+            hosts:
+                db[a:f].qt.com:

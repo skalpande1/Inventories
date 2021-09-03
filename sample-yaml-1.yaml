@@ -3,8 +3,10 @@ all:
   192.168.10.57:
 children:
   webserver:
-    wq1.qt.com
-    wq2.qt.com
+    hosts:
+        wq1.qt.com
+        wq2.qt.com
   dbserver:
-   db1.qt.com
-   db2.qt.com
+    hosts:
+        db1.qt.com
+        db2.qt.com
